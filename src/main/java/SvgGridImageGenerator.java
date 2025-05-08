@@ -1,8 +1,5 @@
 import org.apache.batik.transcoder.*;
 import org.apache.batik.transcoder.image.PNGTranscoder;
-import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
-import org.apache.batik.util.XMLResourceDescriptor;
-import org.w3c.dom.Document;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -10,8 +7,6 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.*;
 import java.util.List;
-import java.util.*;
-import java.util.stream.Collectors;
 
 /** <b>SVG Grid Image Generator - by hoteymaks</b>
  * <p>Searches for all SVG's in the directory it is opened in and generates square-alike grid images with SVG previews.
